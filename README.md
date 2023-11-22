@@ -1,17 +1,37 @@
 # Dataverse Chat
 
+## Índice
+
+* [Historias de usuario](#historias-de-usuario)
+* [Prototipos](#prototipos)
+* [Prompt](#prompt)
+
 ## Historias de usuario
 
 ### Historia de usuario 1
 
-Yo como usuaria quiero poder ver todos los personajes de la saga 
-de Libros de la Fundación de Isaac Asimov para poder conocer más sobre ellos.
+Yo como usuaria quiero poder ver los personajes principales de la saga 
+de Libros "Fundación" de Isaac Asimov para poder conocer más sobre ellos.
 
 #### Criterios de aceptación
 
 -   La usuaria puede ver todos los personajes en tarjetas.
 -   La usuaria puede ver la información relevante de cada personaje en
-    la tarjeta (imagen, nombre, especie, estado y planeta de origen).
+    la tarjeta (imagen, nombre, descripcion, campo principal).
+
+#### Definición de terminado
+
+-   La funcionalidad cumple satisface los criterios de aceptación.
+-   La funcionalidad tiene _test_ unitarios.
+-   El diseño visual corresponde al prototipo de alta fidelidad.
+-   El código de esta funcionalidad recibió code review.
+
+### Historia de usuario 2
+
+Yo como usuaria quiero poder regorganizar todos los personajes principales de la saga  de Libros "Fundación" de Isaac Asimov para poder encontrarlos más facilmente.
+
+#### Criterios de aceptación
+
 -   La usuaria puede filtrar personajes por nombre.
 -   La usuaria puede ordenar los personajes alfabéticamente de la A a la
     Z y de la Z a la A.
@@ -24,18 +44,17 @@ de Libros de la Fundación de Isaac Asimov para poder conocer más sobre ellos.
 -   El diseño visual corresponde al prototipo de alta fidelidad.
 -   El código de esta funcionalidad recibió code review.
 
-### Historia de usuario 2
+### Historia de usuario 3
 
-Yo como usuaria quiero poder ver el detalle de cada personaje de la
-serie Rick and Morty para poder conocer más sobre ellos.
+Yo como usuaria quiero poder ver el detalle de cada personaje principal de la saga 
+de Libros "Fundación" de Isaac Asimov para poder conocer más sobre ellos.
 
 #### Criterios de aceptación
 
 -   La usuaria puede ver toda la información del personaje en una ruta
     específica.
 -   La usuaria puede ver la información relevante de cada personaje en
-    la tarjeta (imagen, nombre, especie, estado, género, origen y
-    episodios en los que aparece).
+    la tarjeta (imagen, nombre, especie, dato curioso, origen).
 -   La usuaria puede navegar al detalle de un personaje haciendo click
     sobre la tarjeta del personaje.
 
@@ -46,10 +65,66 @@ serie Rick and Morty para poder conocer más sobre ellos.
 -   El diseño visual corresponde al prototipo de alta fidelidad.
 -   El código de esta funcionalidad recibió code review.
 
-### Historia de usuario 3
+### Historia de usuario 4
+
+Yo como usuaria quiero poder chatear con cada personaje principal de la saga 
+de Libros "Fundación" de Isaac Asimov, para poder hacerles preguntas específicas sobre su vida.
+
+#### Criterios de aceptación
+
+-   La usuaria puede ver el chat de cada personaje en una ruta
+    específica.
+-   La usuaria puede ver la información relevante de cada personaje en
+    la tarjeta (imagen, nombre, especie, dato curioso, origen).
+-   La usuaria puede navegar al chat de un personaje haciendo click
+    sobre la tarjeta del personaje.
+
+#### Definición de terminado
+
+-   La funcionalidad cumple satisface los criterios de aceptación.
+-   La funcionalidad tiene _test_ unitarios.
+-   El diseño visual corresponde al prototipo de alta fidelidad.
+-   El código de esta funcionalidad recibió code review
+
+### Historia de usuario 5
+
+Yo como usuaria quiero poder chatear con todos los personajes principales de la saga  de Libros "Fundación" de Isaac Asimov, para poder ver sus diferentes respuestas a una misma pregunta.
+
+#### Criterios de aceptación
+
+-   La usuaria puede ver el chat de todos los personajes en una ruta
+    específica.
+-   La usuaria puede ver la información relevante de cada personaje en
+    la tarjeta (imagen, nombre, especie, dato curioso, origen).
+-   La usuaria puede navegar al chat de un personaje haciendo click
+    sobre la tarjeta del personaje.
+
+#### Definición de terminado
+
+-   La funcionalidad cumple satisface los criterios de aceptación.
+-   La funcionalidad tiene _test_ unitarios.
+-   El diseño visual corresponde al prototipo de alta fidelidad.
+-   El código de esta funcionalidad recibió code review
 
 
-Prompt para generar la data:
+## Prototipos
+### Prototipos de baja fidelidad
+
+
+
+| Mobile | Desktop |
+|----------|----------|
+| ![Prototipo_baja_mobile](https://github-production-user-asset-6210df.s3.amazonaws.com/123121338/266726383-54711bb7-cb05-448e-b677-3cbd9bf13c14.png)    | ![Prototipo_alta_desktop](https://github-production-user-asset-6210df.s3.amazonaws.com/92090/261137087-6cef16bc-643a-4d6d-bc1c-e0daaeb21c88.png)  |
+
+### Prototipos de alta fidelidad
+
+| Mobile | Desktop |
+|----------|----------|
+| En construcción | En construcción |
+
+## Prompt
+
+Prompt utilizado para generar la data:
 
 ```text
 Hola, basado en el siguiente ejemplo:

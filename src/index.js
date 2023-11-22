@@ -1,3 +1,5 @@
-import { dataset } from "./data/dataset";
+import { dataset } from "./data/dataset.js";
+import { cardsContainer } from "./views/cards-container.js";
 
-console.log(dataset.length)
+const app = document.querySelector("#root");
+cardsContainer(dataset, app);

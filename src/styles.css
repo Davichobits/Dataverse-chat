@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.card{
+  border: 1px solid red;
+  width: 150px;
+  border-radius: 8px;
+  overflow: hidden;
+  & img{
+    width: 100%;
+  }
+  & h2{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 8px 0;
+  }
+  & .short-description{
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 8px 0;
+  }
+  & .main-field{
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 8px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

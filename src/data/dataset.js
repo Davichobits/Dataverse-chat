@@ -4,7 +4,7 @@ export const dataset = [
     name: "Harry Seldon",
     shortDescription: "Psicohistoriador y fundador de la Fundación.",
     description: "Harry Seldon, el legendario psicohistoriador, predijo la caída del Imperio Galáctico y fundó la Fundación para preservar el conocimiento humano.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG..xGe1KAeExfEaMf44cWl?pid=ImgGn",
     facts: {
       yearOfBirth: "Año 47 de la Era Galáctica",
       placeOfBirth: "Helicon",
@@ -18,7 +18,7 @@ export const dataset = [
     name: "Dors Venabili",
     shortDescription: "Esposa de Hari Seldon y protectora de su vida.",
     description: "Dors Venabili es una historiadora y profesora de la Universidad de Streeling. Se casa con Hari Seldon y lo acompaña en sus aventuras por la galaxia. Es una mujer inteligente, leal y valiente, que oculta un gran secreto sobre su verdadera naturaleza.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.U6ttIHHIrT.UrZ8chjIa?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 58 de la Era Galáctica",
       placeOfBirth: "Cinna",
