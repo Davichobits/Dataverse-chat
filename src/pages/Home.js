@@ -1,7 +1,9 @@
-export const cardsContainer = (data) => {
+import { dataset } from "../data/dataset.js";
+
+export function Home() {
   const cardsContainer = document.createElement("section");
   cardsContainer.classList.add("cards-container");
-  data.forEach((element) => {
+  dataset.forEach((element) => {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
@@ -15,4 +17,4 @@ export const cardsContainer = (data) => {
     cardsContainer.appendChild(card);
   });
   return cardsContainer;
-};
+}

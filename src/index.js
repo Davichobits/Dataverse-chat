@@ -1,5 +1,17 @@
-import { dataset } from "./data/dataset.js";
-import { cardsContainer } from "./views/cards-container.js";
+import { Home } from "./pages/Home.js";
+import { Details } from "./pages/Details.js";
+import { setRootEl, setRoutes, onURLChange } from "./router.js";
 
-const app = document.querySelector("#root");
-cardsContainer(dataset, app);
+const routes = {
+  "/": Home,
+  "/details": Details,
+};
+
+setRoutes(routes);
+
+window.addEventListener("DOMContentLoaded", (event) => {
+  setRootEl(document.querySelector("#root"));
+  onURLChange(event);
+});
+
+window.onpopstate = onURLChange;
