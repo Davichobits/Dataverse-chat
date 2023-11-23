@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 :root{
-  --backGround: #ECD0AA;
+  --backGroundUp: #ECD0AA;
+  --backGroundDown: #000000;
 }
 body{
   font-family: sans-serif;
-  background-color: var(--backGround);
+  background: linear-gradient(180deg, var(--backGroundUp) 0%, var(--backGroundDown) 100%);
 }
 
 .cards-container{

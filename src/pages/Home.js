@@ -1,6 +1,14 @@
 import { dataset } from "../data/dataset.js";
 
 export function Home() {
+  // Titulo
+  const title = document.createElement("h1");
+  title.innerText = "Fundación";
+  // Subtitulo
+  const subtitle = document.createElement("h1");
+  subtitle.innerText = "Isaac Asimov";
+
+  // Contenedor de tarjetas
   const cardsContainer = document.createElement("section");
   cardsContainer.classList.add("cards-container");
   dataset.forEach((element) => {
@@ -16,5 +24,10 @@ export function Home() {
     `;
     cardsContainer.appendChild(card);
   });
-  return cardsContainer;
+
+  const section = document.createElement("section");
+  section.appendChild(title);
+  section.appendChild(subtitle);
+  section.appendChild(cardsContainer);
+  return section;
 }
