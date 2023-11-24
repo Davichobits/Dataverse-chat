@@ -32,7 +32,7 @@ export const dataset = [
     name: "Cleón I",
     shortDescription: "Emperador del Imperio Galáctico y último de la dinastía Entun.",
     description: "Cleón I es el emperador del Imperio Galáctico durante la época de Hari Seldon. Es un hombre vanidoso, astuto y desconfiado, que se rodea de consejeros y cortesanos. Su reinado se caracteriza por la decadencia, la corrupción y la inestabilidad del Imperio.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.QXZpBJ8dw7V3ukaXal3v?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 11.988 de la Era Galáctica",
       placeOfBirth: "Trántor",
@@ -46,7 +46,7 @@ export const dataset = [
     name: "Eto Demerzel",
     shortDescription: "Primer ministro del Imperio Galáctico y eminencia gris de Cleón I.",
     description: "Eto Demerzel es el primer ministro del Imperio Galáctico y el verdadero detentador del poder. Es un hombre misterioso, reservado y manipulador, que controla los hilos de la política galáctica. Su identidad real es la del robot R. Daneel Olivaw, que lleva siglos velando por la humanidad.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.zbyx7mgMSfG2YwgSIFvC?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Desconocido",
       placeOfBirth: "Aurora",
@@ -60,7 +60,7 @@ export const dataset = [
     name: "Wanda Seldon",
     shortDescription: "Nieta de Hari Seldon y fundadora de la Segunda Fundación.",
     description: "Wanda Seldon es la nieta de Hari Seldon y la hija de Raych Seldon. Es una mujer inteligente, sensible y telepática, que descubre su capacidad de leer y alterar las mentes. Junto con otros telepatas, funda la Segunda Fundación, que se encarga de proteger y guiar el Plan Seldon.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.fg7BcJP2VhkjUgpQmqfp?pid=ImgGn",
     facts: {
       yearOfBirth: "Año 120 de la Era Galáctica",
       placeOfBirth: "Trántor",
@@ -74,7 +74,7 @@ export const dataset = [
     name: "Salvor Hardin",
     shortDescription: "Primer alcalde de Términus y líder de la Fundación.",
     description: "Salvor Hardin es el primer alcalde de Términus, el planeta donde se establece la Fundación. Es un hombre pragmático, ingenioso y carismático, que se enfrenta a las amenazas de los reinos vecinos. Su lema es \"La violencia es el último refugio de los incompetentes\".",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.SedcbLTslSHmrwIUFfxQ?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 79 de la Era de la Fundación",
       placeOfBirth: "Términus",
@@ -88,7 +88,7 @@ export const dataset = [
     name: "Hober Mallow",
     shortDescription: "Primer comerciante y alcalde de Términus y líder de la Fundación.",
     description: "Hober Mallow es el primer comerciante y alcalde de Términus, el planeta donde se establece la Fundación. Es un hombre ambicioso, astuto y audaz, que se dedica al comercio interestelar. Su política se basa en el poder económico y la influencia cultural de la Fundación.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.1e90OYEYGuFDgTcCCZa6?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 155 de la Era de la Fundación",
       placeOfBirth: "Smyrno",
@@ -102,7 +102,7 @@ export const dataset = [
     name: "El Mulo",
     shortDescription: "Conquistador galáctico y mayor amenaza para la Fundación.",
     description: "El Mulo es un conquistador galáctico y el mayor enemigo de la Fundación. Es un hombre de origen desconocido, que posee el poder de alterar las emociones de las personas. Su objetivo es crear un imperio basado en el miedo y la lealtad. Su verdadero nombre es Magnífico Giganticus.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.HmCqO3Mw41qU4P.bO5Fj?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Desconocido",
       placeOfBirth: "Gaia",
@@ -116,7 +116,7 @@ export const dataset = [
     name: "Preem Palver",
     shortDescription: "Primer orador de la Segunda Fundación y líder de la resistencia contra el Mulo.",
     description: "Preem Palver es el primer orador de la Segunda Fundación, el grupo secreto de psicohistoriadores que protegen el Plan Seldon. Es un hombre sencillo, bondadoso y humilde, que vive en el planeta Rossem. Su papel es crucial para derrotar al Mulo y restaurar el equilibrio de la galaxia.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.NOXpx34EEmR1svbzG.gq?pid=ImgGn",
     facts: {
       yearOfBirth: "Año 315 de la Era de la Fundación",
       placeOfBirth: "Trántor",
@@ -130,7 +130,7 @@ export const dataset = [
     name: "Golan Trevize",
     shortDescription: "Exiliado de la Fundación y buscador de la Tierra.",
     description: "Golan Trevize es un exiliado de la Fundación, el imperio científico que se enfrenta a la Segunda Fundación. Es un hombre valiente, rebelde y curioso, que se embarca en una misión para encontrar la Tierra, el legendario planeta de origen de la humanidad. Su intuición lo lleva a descubrir el destino final de la galaxia.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.Bs.oAcuwVBD5yRgULm5u?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 498 de la Era de la Fundación",
       placeOfBirth: "Términus",
@@ -144,7 +144,7 @@ export const dataset = [
     name: "Janov Pelorat",
     shortDescription: "Historiador y compañero de viaje de Golan Trevize.",
     description: "Janov Pelorat es un historiador y profesor de la Universidad de Términus. Es un hombre tímido, erudito y pacífico, que se dedica a investigar la historia de la galaxia. Se une a Golan Trevize en su búsqueda de la Tierra, y se enamora de la misteriosa Bliss.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.4J_fEMdfarUAlbogLQ6k?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 473 de la Era de la Fundación",
       placeOfBirth: "Santanni",
@@ -158,7 +158,7 @@ export const dataset = [
     name: "Bliss",
     shortDescription: "Representante de Gaia y amante de Janov Pelorat.",
     description: "Bliss es la representante de Gaia, el planeta vivo que forma una mente colectiva con todos sus habitantes. Es una mujer joven, bella y poderosa, que posee habilidades telepáticas y telequinéticas. Acompaña a Golan Trevize y Janov Pelorat en su búsqueda de la Tierra, y se involucra sentimentalmente con este último.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.79xGi1DHC2a2RTFhmuE.?pid=ImgGn",
     facts: {
       yearOfBirth: "Desconocido",
       placeOfBirth: "Gaia",
@@ -172,7 +172,7 @@ export const dataset = [
     name: "R. Daneel Olivaw",
     shortDescription: "Robot humanoide y protector de la humanidad.",
     description: "R. Daneel Olivaw es un robot humanoide que lleva siglos cuidando de la humanidad. Es un hombre alto, atractivo y elegante, que oculta su condición de robot bajo una apariencia humana. Su misión es cumplir las Leyes de la Robótica y asegurar el bienestar de la humanidad. Su identidad secreta es la de Eto Demerzel, el primer ministro del Imperio Galáctico.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.4BxQWcQxzVYMga2nzN3g?pid=ImgGn",
     facts: {
       yearOfBirth: "Desconocido",
       placeOfBirth: "Aurora",
@@ -186,7 +186,7 @@ export const dataset = [
     name: "R. Giskard Reventlov",
     shortDescription: "Robot humanoide y compañero de R. Daneel Olivaw.",
     description: "R. Giskard Reventlov es un robot humanoide que colabora con R. Daneel Olivaw en su misión de proteger a la humanidad. Es un hombre robusto, moreno y serio, que también oculta su condición de robot bajo una apariencia humana. Su habilidad especial es la de leer y alterar las mentes, lo que le permite influir en el curso de la historia.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.pD6mw5fVyBnGcXoLeKot?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Desconocido",
       placeOfBirth: "Aurora",
@@ -200,7 +200,7 @@ export const dataset = [
     name: "Han Fastolfe",
     shortDescription: "Roboticista y padre de los robots humanoides.",
     description: "Han Fastolfe es un roboticista y político de Aurora, el mundo líder de los Mundos Exteriores. Es un hombre anciano, sabio y bondadoso, que se dedica a estudiar y crear robots. Es el creador de R. Daneel Olivaw y R. Giskard Reventlov, los robots humanoides que cambian el destino de la galaxia.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.zl88Vp8Sc8iHy.TLRu1W?pid=ImgGn",
     facts: {
       yearOfBirth: "Año 11.988 de la Era Galáctica",
       placeOfBirth: "Aurora",
@@ -214,7 +214,7 @@ export const dataset = [
     name: "Kelden Amadiro",
     shortDescription: "Roboticista y rival de Han Fastolfe.",
     description: "Kelden Amadiro es un roboticista y político de Aurora, el mundo líder de los Mundos Exteriores. Es un hombre joven, ambicioso y arrogante, que se dedica a competir y conspirar contra Han Fastolfe. Su objetivo es destruir la Tierra y los robots humanoides, y crear un imperio galáctico de robots.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.aKyUy6hVYeFZv20pxK6y?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 12.020 de la Era Galáctica",
       placeOfBirth: "Aurora",
@@ -228,7 +228,7 @@ export const dataset = [
     name: "Bayta Darell",
     shortDescription: "Esposa de Toran Darell y heroína de la Fundación.",
     description: "Bayta Darell es la esposa de Toran Darell, un noble de la Fundación. Es una mujer inteligente, valiente y compasiva, que se involucra en la lucha contra el Mulo. Su acción decisiva salva a la Segunda Fundación de la destrucción y cambia el curso de la historia.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.YoqYlxjYMBAIHY7qSIvD?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 315 de la Era de la Fundación",
       placeOfBirth: "Haven",
@@ -242,7 +242,7 @@ export const dataset = [
     name: "Toran Darell",
     shortDescription: "Esposo de Bayta Darell y noble de la Fundación.",
     description: "Toran Darell es el esposo de Bayta Darell, una heroína de la Fundación. Es un hombre noble, leal y valeroso, que se dedica al comercio interestelar. Junto con su esposa, se enfrenta al Mulo y a sus agentes, y descubre la existencia de la Segunda Fundación.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.9EtlogXxQzhm550thSVm?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 313 de la Era de la Fundación",
       placeOfBirth: "Términus",
@@ -256,7 +256,7 @@ export const dataset = [
     name: "Han Pritcher",
     shortDescription: "Capitán de la Fundación y agente del Mulo.",
     description: "Han Pritcher es un capitán de la Fundación y un agente del Mulo. Es un hombre duro, disciplinado y fanático, que se convierte en el brazo derecho del Mulo. Su misión es encontrar y destruir la Segunda Fundación, pero su lealtad es puesta a prueba por la intervención de Bayta Darell.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.cg3HswKSKidawtQdJtVx?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 290 de la Era de la Fundación",
       placeOfBirth: "Términus",
@@ -270,7 +270,7 @@ export const dataset = [
     name: "Magnífico Giganticus",
     shortDescription: "Bufón del Mulo y verdadera identidad del conquistador.",
     description: "Magnífico Giganticus es el bufón del Mulo y su verdadera identidad. Es un hombre de origen desconocido, que se hace pasar por un payaso torpe y asustadizo. Su habilidad especial es la de alterar las emociones de las personas, lo que le permite crear un imperio basado en el miedo y la lealtad.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.BSCdVECRCXKIzrQAhdEO?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Desconocido",
       placeOfBirth: "Gaia",
@@ -284,7 +284,7 @@ export const dataset = [
     name: "Harla Branno",
     shortDescription: "Alcaldesa de Términus y líder de la Fundación.",
     description: "Harla Branno es la alcaldesa de Términus, el planeta donde se establece la Fundación. Es una mujer fuerte, decidida y astuta, que se enfrenta a la amenaza de los Mundos Exteriores. Su política se basa en el poder militar y la defensa de la independencia de la Fundación.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.NgtiJnoeHCHqWh3n.Uko?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 498 de la Era de la Fundación",
       placeOfBirth: "Términus",
@@ -298,7 +298,7 @@ export const dataset = [
     name: "Stettin Palver",
     shortDescription: "Emperador de Kalgan y rival de la Fundación.",
     description: "Stettin Palver es el emperador de Kalgan, el planeta que fue la base del Mulo. Es un hombre joven, ambicioso y cruel, que se dedica a la conquista interestelar. Su objetivo es destruir la Fundación y la Segunda Fundación, y crear un imperio a su imagen y semejanza.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.wQBIP4KJreKNITLTmjLi?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 498 de la Era de la Fundación",
       placeOfBirth: "Kalgan",
@@ -312,7 +312,7 @@ export const dataset = [
     name: "Lady Callia",
     shortDescription: "Esposa de Stettin Palver y agente de la Segunda Fundación.",
     description: "Lady Callia es la esposa de Stettin Palver, el emperador de Kalgan. Es una mujer hermosa, dulce y seductora, que oculta su verdadera afiliación a la Segunda Fundación. Su misión es sabotear los planes de su esposo y ayudar a la Fundación a derrotarlo.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.F9l0r337fE7f1DKD_bFc?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 476 de la Era de la Fundación",
       placeOfBirth: "Trántor",
@@ -326,7 +326,7 @@ export const dataset = [
     name: "Fallom",
     shortDescription: "Niño hermafrodita y último habitante de Solaria.",
     description: "Fallom es un niño hermafrodita y el último habitante de Solaria, el planeta más aislado de la galaxia. Es un ser inocente, curioso y asustadizo, que se une a Golan Trevize, Janov Pelorat y Bliss en su búsqueda de la Tierra. Su destino está ligado al de la galaxia y al de Gaia.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
+    imageUrl: "https://th.bing.com/th/id/OIG.hQDYyomEmCETREHYZ.kJ?w=1024&h=1024&rs=1&pid=ImgDetMain",
     facts: {
       yearOfBirth: "Año 498 de la Era de la Fundación",
       placeOfBirth: "Solaria",
@@ -335,18 +335,4 @@ export const dataset = [
       curiousFact2: "Mascota: un perro llamado Puss"
     }
   },
-  {
-    id: "theo-agenor",
-    name: "Theo Agenor",
-    shortDescription: "Piloto de la Fundación y amigo de Golan Trevize.",
-    description: "Theo Agenor es un piloto de la Fundación y un amigo de Golan Trevize. Es un hombre joven, alegre y leal, que se dedica a transportar pasajeros y mercancías por la galaxia. Su nave es la Far Star, que le presta a Trevize para su misión de encontrar la Tierra.",
-    imageUrl: "URL_DE_LA_IMAGEN_GENERADA",
-    facts: {
-      yearOfBirth: "Año 497 de la Era de la Fundación",
-      placeOfBirth: "Términus",
-      mainField: "Transporte",
-      curiousFact1: "Nave: la Far Star",
-      curiousFact2: "Amigo: Golan Trevize"
-    }
-  }
 ]

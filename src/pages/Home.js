@@ -3,9 +3,11 @@ import { dataset } from "../data/dataset.js";
 export function Home() {
   // Titulo
   const title = document.createElement("h1");
+  title.classList.add("title");
   title.innerText = "Fundación";
   // Subtitulo
-  const subtitle = document.createElement("h1");
+  const subtitle = document.createElement("h2");
+  subtitle.classList.add("subtitle");
   subtitle.innerText = "Isaac Asimov";
 
   // Contenedor de tarjetas
@@ -15,7 +17,9 @@ export function Home() {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
-    <img src="${element.imageUrl}" alt="${element.name}" />
+    <div class="img-container">
+      <img src="${element.imageUrl}" alt="${element.name}" />
+    </div>
     <div class="card-body">
     <h2>${element.name}</h2>
     <p class="short-description">${element.shortDescription}</p>
