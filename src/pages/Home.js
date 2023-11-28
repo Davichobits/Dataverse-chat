@@ -1,14 +1,10 @@
 import { dataset } from "../data/dataset.js";
+import { Header } from "../components/header/Header.js";
+
 
 export function Home() {
-  // Titulo
-  const title = document.createElement("h1");
-  title.classList.add("title");
-  title.innerText = "Fundación";
-  // Subtitulo
-  const subtitle = document.createElement("h2");
-  subtitle.classList.add("subtitle");
-  subtitle.innerText = "Isaac Asimov";
+  // Header
+  const header = Header(dataset);
 
   // Contenedor de tarjetas
   const cardsContainer = document.createElement("section");
@@ -30,8 +26,7 @@ export function Home() {
   });
 
   const section = document.createElement("section");
-  section.appendChild(title);
-  section.appendChild(subtitle);
+  section.appendChild(header);
   section.appendChild(cardsContainer);
   return section;
 }

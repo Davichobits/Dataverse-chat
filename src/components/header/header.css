@@ -1,0 +1,28 @@
+.title{
+  font-size: 32px;
+  font-weight: bold;
+}
+.subtitle{
+  font-size: 20px;
+  font-weight: lighter;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+input[type="text"]{
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--Text);
+  outline: none;
+  font-family: var(--Font);
+}
+select{
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--Text);
+  outline: none;
+  font-family: var(--Font);
+}
