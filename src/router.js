@@ -25,3 +25,5 @@ function renderView(pathname, params={}) {
 export function onURLChange({ currentTarget: { location } }) {
   renderView(location.pathname);
 }
+
+
