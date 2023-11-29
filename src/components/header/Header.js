@@ -2,7 +2,6 @@ import { getFields } from '../../utils/functions.js';
 
 export const Header = (data) => {
   const fields = getFields(data);
-  console.log(fields)
   const headerEl = document.createElement('header');
   headerEl.innerHTML = `
     <nav class='nav'>
@@ -11,7 +10,7 @@ export const Header = (data) => {
       <h2 class="subtitle">Isaac Asimov</h2>
     </div>
     <div class="search-container">
-      <input type="text" placeholder="Buscar">
+      <input id="search" type="text" placeholder="Buscar">
       <select name="sort" id="sort">
         <option value="asc">Ascendente</option>
         <option value="desc">Descendente</option>
@@ -25,6 +24,14 @@ export const Header = (data) => {
     <option value="">Todas las áreas</option>
     ${fields.map(field => `<option value="${field}">${field}</option>`)}
   `;
-  console.log(headerEl)
-  return headerEl;
+
+  let dataFiltered = [...data];
+  headerEl.querySelector('#search').addEventListener('input', (event) => {
+    const userInput = event.target.value;
+    dataFiltered = data.filter(element => element.name.toLowerCase().includes(userInput.toLowerCase()));
+  });
+
+  console.log('dataFiltered', dataFiltered)
+  
+  return [headerEl, dataFiltered];
 }

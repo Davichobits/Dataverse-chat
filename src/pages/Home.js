@@ -4,12 +4,12 @@ import { Header } from "../components/header/Header.js";
 
 export function Home() {
   // Header
-  const header = Header(dataset);
-
+  const [header, dataFiltered] = Header(dataset);
+  
   // Contenedor de tarjetas
   const cardsContainer = document.createElement("section");
   cardsContainer.classList.add("cards-container");
-  dataset.forEach((element) => {
+  dataFiltered.forEach((element) => {
     const card = document.createElement("div");
     card.classList.add("card");
     card.innerHTML = `
