@@ -21,7 +21,7 @@ export function Home() {
       <img src="${element.imageUrl}" alt="${element.name}" />
     </div>
     <div class="card-body">
-    <h2>${element.name}</h2>
+    <h3>${element.name}</h3>
     <p class="short-description">${element.shortDescription}</p>
     <p class="main-field">${element.facts.mainField}</p>
     </div>
