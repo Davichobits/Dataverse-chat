@@ -148,3 +148,21 @@ La Serie de la Fundación es una serie de novelas de ciencia ficción escritas p
 Debes entregarme un arreglo con 24 objetos, cada uno con la información de un personaje distinto.
 Dentro del objeto "facts" puedes generar uno o dos datos curiosos sobre el personaje, no necesariamente tienen que ser los mismos del ejemplo
 ```
+
+## Convencion de commits
+
+Para el proyecto se utilizo la convencion de commits de [Angular] (Angular Commit Message Convention), 
+el mismo que tiene la siguiente estructura:
+
+`Tipo`: Indica el propósito del commit. Algunos tipos comunes son:
+
+* `feat`: Nueva característica.
+* `fix`: Corrección de un error.
+* `docs`: Cambios en la documentación.
+* `style`: Cambios en el formato o estilo del código.
+* `refactor`: Cambios en el código que no afectan su comportamiento.
+* `test`: Agregar o modificar pruebas.
+* `chore`: Tareas de mantenimiento, actualizaciones, etc.
+
+`Ámbito (opcional)`: Indica la parte del proyecto afectada por el cambio.
+`Descripción`: Breve descripción del cambio.
