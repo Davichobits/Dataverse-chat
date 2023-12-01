@@ -35,7 +35,7 @@ Yo como usuaria quiero poder regorganizar todos los personajes principales de la
 -   La usuaria puede filtrar personajes por nombre.
 -   La usuaria puede ordenar los personajes alfabéticamente de la A a la
     Z y de la Z a la A.
--   La usuaria puede filtrar personajes por especie.
+-   La usuaria puede filtrar personajes por "campo principal" al que se dedica.
 
 #### Definición de terminado
 
