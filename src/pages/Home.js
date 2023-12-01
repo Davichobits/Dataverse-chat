@@ -11,17 +11,18 @@ export function Home() {
   subtitle.innerText = "Isaac Asimov";
 
   // Contenedor de tarjetas
-  const cardsContainer = document.createElement("section");
+  const cardsContainer = document.createElement("ul");
   cardsContainer.classList.add("cards-container");
   dataset.forEach((element) => {
-    const card = document.createElement("div");
+    const card = document.createElement("li");
     card.classList.add("card");
     card.innerHTML = `
-    <div class="img-container">
+    <figure class="img-container">
       <img src="${element.imageUrl}" alt="${element.name}" />
-    </div>
+      <figcaption>${element.shortDescription}</figcaption>
+    </figure>
     <div class="card-body">
-    <h3>${element.name}</h3>
+    <h3 class="card-name">${element.name}</h3>
     <p class="short-description">${element.shortDescription}</p>
     <p class="main-field">${element.facts.mainField}</p>
     </div>
