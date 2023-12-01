@@ -1,6 +1,7 @@
 import { getFields } from '../../utils/functions.js';
+import { updateCardsContainer } from '../../utils/dom.js';
 
-export const Header = (data) => {
+export const Header = (data, cardsContainer) => {
   const fields = getFields(data);
   const headerEl = document.createElement('header');
   headerEl.innerHTML = `
@@ -29,9 +30,8 @@ export const Header = (data) => {
   headerEl.querySelector('#search').addEventListener('input', (event) => {
     const userInput = event.target.value;
     dataFiltered = data.filter(element => element.name.toLowerCase().includes(userInput.toLowerCase()));
+    updateCardsContainer(cardsContainer, dataFiltered);
   });
-
-  console.log('dataFiltered', dataFiltered)
   
-  return [headerEl, dataFiltered];
+  return headerEl;
 }
