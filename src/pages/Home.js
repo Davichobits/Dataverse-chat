@@ -5,7 +5,7 @@ import { updateCardsContainer } from "../utils/dom.js";
 
 export function Home() {
   // Contenedor de tarjetas
-  const cardsContainer = document.createElement("section");
+  const cardsContainer = document.createElement("ul");
   cardsContainer.classList.add("cards-container");
   // Header
   const header = Header(dataset, cardsContainer);

@@ -4,6 +4,8 @@ import { updateCardsContainer } from '../../utils/dom.js';
 export const Header = (data, cardsContainer) => {
   const fields = getFields(data);
   const headerEl = document.createElement('header');
+
+  // Input del header
   headerEl.innerHTML = `
     <nav class='nav'>
     <div>
