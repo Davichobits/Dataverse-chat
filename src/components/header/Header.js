@@ -13,13 +13,13 @@ export const Header = (data, cardsContainer) => {
       <h2 class="subtitle">Isaac Asimov</h2>
     </div>
     <div class="search-container">
-      <button class="clear-btn">Clear</button>
       <input id="search" type="text" placeholder="Buscar">
       <select name="sort" id="sort">
         <option value="asc">Ascendente</option>
         <option value="desc">Descendente</option>
       </select>
       <select name="main-field" id="main-field"></select>
+      <button class="clear-btn">Clear</button>
     </div>
     </nav>
   `;

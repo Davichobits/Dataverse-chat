@@ -13,16 +13,28 @@ nav{
   padding: 24px;
 }
 input[type="text"]{
-  padding: 8px;
+  padding: 0 8px;
+  height: 32px;
   border-radius: 8px;
   border: 1px solid var(--Text);
   outline: none;
   font-family: var(--Font);
 }
 select{
-  padding: 8px;
+  padding: 0 8px;
+  height: 32px;
   border-radius: 8px;
   border: 1px solid var(--Text);
   outline: none;
   font-family: var(--Font);
+}
+.clear-btn{
+  padding: 0 8px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  font-family: var(--Font);
+  background-color: var(--Text);
+  color: var(--CardBackground);
+  cursor: pointer;
 }
