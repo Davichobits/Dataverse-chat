@@ -15,6 +15,7 @@ export const Header = (data, cardsContainer) => {
     <div class="search-container">
       <input id="search" type="text" placeholder="Buscar">
       <select name="sort" id="sort">
+        <option value="all">Elige orden</option>
         <option value="asc">Ascendente</option>
         <option value="desc">Descendente</option>
       </select>
@@ -30,30 +31,39 @@ export const Header = (data, cardsContainer) => {
     ${fields.map(field => `<option value="${field}">${field}</option>`)}
   `;
 
-  let dataFiltered = [...data];
-  let elementsSearched = [...data];
+  let currentData = [];
+  let sortValue = '';
+  let field = '';
+  let userInput = '';
+
+  const readUserInputs = () => {
+    currentData = findElements(data, userInput);
+    const dataFiltered = filterByField(currentData, field);
+    const dataSorted = sortData(dataFiltered, sortValue);
+    return dataSorted;
+  }
 
   // Evento para buscar
   headerEl.querySelector('#search').addEventListener('input', (event) => {
-    const userInput = event.target.value;
-    elementsSearched = findElements(dataFiltered, userInput);
-    updateCardsContainer(cardsContainer, elementsSearched);
+    userInput = event.target.value;
+    const dataUpdated = readUserInputs();
+    updateCardsContainer(cardsContainer, dataUpdated);
   });
 
   // Evento para ordenar
   headerEl.querySelector('#sort').addEventListener('change', (event) => {
-    const sortValue = event.target.value;
-    const dataSorted = sortData(dataFiltered, sortValue);
-    updateCardsContainer(cardsContainer, dataSorted);
+    sortValue = event.target.value;
+    const dataUpdated = readUserInputs();
+    updateCardsContainer(cardsContainer, dataUpdated);
   });
 
   // Evento para filtrar por campo
   const selectField = headerEl.querySelector('#main-field')
 
   selectField.addEventListener('change', (event) => {
-    const field = event.target.value;
-    dataFiltered = filterByField(elementsSearched, field);
-    updateCardsContainer(cardsContainer, dataFiltered);
+    field = event.target.value;
+    const dataUpdated = readUserInputs();
+    updateCardsContainer(cardsContainer, dataUpdated);
   });
   
   return headerEl;

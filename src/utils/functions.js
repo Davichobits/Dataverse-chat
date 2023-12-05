@@ -23,7 +23,6 @@ export const sortData = (data, sortValue) => {
 }
 
 export const findElements = (data, userInput) => {
-  console.log('data', data)
   const dataSearched = data.filter(element => element.name.toLowerCase().includes(userInput.toLowerCase()));
   return dataSearched;
 }

@@ -1,7 +1,7 @@
 export const dataset = [
   {
-    id: "harry-seldon",
-    name: "Harry Seldon",
+    id: "hari-seldon",
+    name: "Hari Seldon",
     shortDescription: "Psicohistoriador y fundador de la Fundación.",
     description: "Harry Seldon, el legendario psicohistoriador, predijo la caída del Imperio Galáctico y fundó la Fundación para preservar el conocimiento humano.",
     imageUrl: "https://th.bing.com/th/id/OIG..xGe1KAeExfEaMf44cWl?pid=ImgGn",
