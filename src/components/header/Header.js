@@ -15,7 +15,7 @@ export const Header = (data, cardsContainer) => {
     <div class="search-container">
       <input id="search" type="text" placeholder="Buscar">
       <select name="sort" id="sort">
-        <option value="all">Elige orden</option>
+        <option value="all">Cualquier orden</option>
         <option value="asc">Ascendente</option>
         <option value="desc">Descendente</option>
       </select>

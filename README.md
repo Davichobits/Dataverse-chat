@@ -120,7 +120,7 @@ Yo como usuaria quiero poder chatear con todos los personajes principales de la 
 
 | Mobile | Desktop |
 |----------|----------|
-| ![Mobile](https://github.com/Laboratoria/curriculum/assets/123121338/4c483b4b-0566-47e5-bc39-85df38382da4) | En construcción |
+| ![Mobile](https://github.com/Laboratoria/curriculum/assets/123121338/debf67d4-ad6d-4fe4-867e-b3bb2cc1bf83) | ![Desktop](https://github.com/Laboratoria/curriculum/assets/123121338/3b20d02e-611e-45c7-a48c-38ca8227b512) |
 
 ## Prompt
 
