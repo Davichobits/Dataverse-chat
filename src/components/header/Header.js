@@ -27,13 +27,13 @@ export const Header = (data, cardsContainer) => {
 
   // Dibujo la lista de campos
   headerEl.querySelector('#main-field').innerHTML = `
-    <option value="">Todas las áreas</option>
+    <option value="all">Todas las áreas</option>
     ${fields.map(field => `<option value="${field}">${field}</option>`)}
   `;
 
   let currentData = [];
-  let sortValue = '';
-  let field = '';
+  let sortValue = 'all';
+  let field = 'all';
   let userInput = '';
 
   const readUserInputs = () => {
@@ -62,6 +62,19 @@ export const Header = (data, cardsContainer) => {
 
   selectField.addEventListener('change', (event) => {
     field = event.target.value;
+    const dataUpdated = readUserInputs();
+    updateCardsContainer(cardsContainer, dataUpdated);
+  });
+
+  // boton Clear
+  const clearBtn = headerEl.querySelector('.clear-btn');
+  clearBtn.addEventListener('click', () => {
+    userInput = '';
+    sortValue = 'all';
+    field = 'all';
+    selectField.value = field;
+    headerEl.querySelector('#sort').value = sortValue;
+    headerEl.querySelector('#search').value = userInput;
     const dataUpdated = readUserInputs();
     updateCardsContainer(cardsContainer, dataUpdated);
   });

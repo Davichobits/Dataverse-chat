@@ -6,7 +6,7 @@ export const getFields = (data) => {
 
 export const filterByField = (data, field) => {
   let dataFiltered = [...data];
-  if (field) {
+  if (field !== 'all') {
     return dataFiltered = data.filter(element => element.facts.mainField === field);
   } 
   return  dataFiltered;
