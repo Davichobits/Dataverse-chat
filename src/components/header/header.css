@@ -27,6 +27,7 @@ select{
   border: 1px solid var(--Text);
   outline: none;
   font-family: var(--Font);
+  background-color: var(--backGroundUp);
 }
 .clear-btn{
   padding: 0 8px;
@@ -37,4 +38,31 @@ select{
   background-color: var(--Text);
   color: var(--CardBackground);
   cursor: pointer;
+  text-transform: uppercase;
+}
+.inputs-container{
+  display: flex;
+  gap: 12px;
+}
+@media (max-width: 376px) {
+  .inputs-container{
+    background-color: var(--HeaderBackground);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 142px;
+    gap: 56px;
+    align-items: center;
+    justify-content: center;
+  }
+  .inputs-container div{
+    display: flex;
+    gap: 12px;
+    flex-direction: column-reverse;
+  }
+  .inputs-container button{
+    background-color: var(--backGroundUp);
+    color: unset;
+  }
 }

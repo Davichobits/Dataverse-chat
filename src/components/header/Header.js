@@ -12,7 +12,8 @@ export const Header = (data, cardsContainer) => {
       <h1 class="title">Fundación</h1>
       <h2 class="subtitle">Isaac Asimov</h2>
     </div>
-    <div class="search-container">
+    <div class="inputs-container">
+      <div>
       <input id="search" type="text" placeholder="Buscar">
       <select name="sort" id="sort">
         <option value="all">Cualquier orden</option>
@@ -20,6 +21,7 @@ export const Header = (data, cardsContainer) => {
         <option value="desc">Descendente</option>
       </select>
       <select name="main-field" id="main-field"></select>
+      </div>
       <button class="clear-btn">Clear</button>
     </div>
     </nav>

@@ -9,6 +9,7 @@
   --CardBackground: #fff;
   --Text: #595252c4;
   --Font: roboto, sans-serif;
+  --HeaderBackground: #999696;
 }
 body{
   font-family: var(--Font);
