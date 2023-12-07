@@ -1,4 +1,7 @@
+import { navigateTo } from "../../router.js";
+
 export const updateCardsContainer = (cardsContainer, dataFiltered) => {
+  console.log('updateCardsContainer')
   cardsContainer.innerHTML = "";
   dataFiltered.forEach((element) => {
     const card = document.createElement("li");
@@ -16,5 +19,12 @@ export const updateCardsContainer = (cardsContainer, dataFiltered) => {
     </div>
     `;
     cardsContainer.appendChild(card);
+  });
+  // Escucha de clic en cada tarjeta
+  cardsContainer.querySelectorAll(".card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const cardId = card.getAttribute("data-id");
+      navigateTo('/details', { id: cardId });
+    });
   });
 }

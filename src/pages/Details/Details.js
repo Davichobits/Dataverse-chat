@@ -1,4 +1,4 @@
-import { dataset } from "../data/dataset.js";
+import { dataset } from "../../data/dataset.js";
 
 function formatFact(fact) {
   return `<strong>${fact.split(":")[0]}:</strong>${fact.split(":")[1]}`;

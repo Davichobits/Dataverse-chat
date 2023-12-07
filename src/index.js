@@ -1,5 +1,5 @@
-import { Home } from "./pages/Home.js";
-import { Details } from "./pages/Details.js";
+import { Home } from "./pages/Home/Home.js";
+import { Details } from "./pages/Details/Details.js";
 import { setRootEl, setRoutes, onURLChange } from "./router.js";
 
 const routes = {
