@@ -3,6 +3,7 @@ export const updateCardsContainer = (cardsContainer, dataFiltered) => {
   dataFiltered.forEach((element) => {
     const card = document.createElement("li");
     card.classList.add("card");
+    card.setAttribute("data-id", element.id);
     card.innerHTML = `
     <figure class="img-container">
       <img src="${element.imageUrl}" alt="${element.name}" />
