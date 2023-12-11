@@ -8,12 +8,8 @@ export function Home() {
   cardsContainer.classList.add("cards-container");
   // Header
   const header = Header(dataset, cardsContainer);
-  
-  // updateCardsContainer(cardsContainer, dataset);
-
   const section = document.createElement("section");
 
-  
   section.appendChild(header);
   section.appendChild(cardsContainer);
   return section;

@@ -1,5 +1,6 @@
 import { getFields, filterByField, sortData, findElements } from '../../utils/functions.js';
 import { updateCardsContainer } from '../../utils/dom.js';
+import { updateUrl } from '../../router.js';
 
 export const Header = (data, cardsContainer) => {
   const fields = getFields(data);
@@ -34,16 +35,20 @@ export const Header = (data, cardsContainer) => {
   `;
 
   let currentData = [];
-  let sortValue = localStorage.getItem('sortValue') || 'all';
-  let field = localStorage.getItem('field') || 'all';
-  let userInput = localStorage.getItem('userInput') || '';
+  let sortValue = 'all';
+  let field = 'all';
+  let userInput = '';
 
   const readUserInputs = () => {
     currentData = findElements(data, userInput);
     const dataFiltered = filterByField(currentData, field);
     const dataSorted = sortData(dataFiltered, sortValue);
+
+    updateUrl(userInput, sortValue, field)
+
     return dataSorted;
   }
+
   // Evento para filtrar por campo
   const selectField = headerEl.querySelector('#main-field');
   const selectSort = headerEl.querySelector('#sort');
@@ -60,7 +65,6 @@ export const Header = (data, cardsContainer) => {
   // Evento para buscar
   headerEl.querySelector('#search').addEventListener('input', (event) => {
     userInput = event.target.value;
-    localStorage.setItem('userInput', userInput);
     const dataUpdated = readUserInputs();
     updateCardsContainer(cardsContainer, dataUpdated);
   });
@@ -68,16 +72,13 @@ export const Header = (data, cardsContainer) => {
   // Evento para ordenar
   headerEl.querySelector('#sort').addEventListener('change', (event) => {
     sortValue = event.target.value;
-    localStorage.setItem('sortValue', sortValue);
     const dataUpdated = readUserInputs();
     updateCardsContainer(cardsContainer, dataUpdated);
   });
 
-  
-
+  // Evento para filtrar por campo
   selectField.addEventListener('change', (event) => {
     field = event.target.value;
-    localStorage.setItem('field', field);
     const dataUpdated = readUserInputs();
     updateCardsContainer(cardsContainer, dataUpdated);
   });
@@ -88,11 +89,6 @@ export const Header = (data, cardsContainer) => {
     userInput = '';
     sortValue = 'all';
     field = 'all';
-
-    // reseto local storage
-    localStorage.setItem('userInput', userInput);
-    localStorage.setItem('sortValue', sortValue);
-    localStorage.setItem('field', field)
 
     // reseteo los valores de los inputs
     selectField.value = field;

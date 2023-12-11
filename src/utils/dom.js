@@ -1,7 +1,7 @@
 import { navigateTo } from "../../router.js";
 
 export const updateCardsContainer = (cardsContainer, dataFiltered) => {
-  console.log('updateCardsContainer')
+
   cardsContainer.innerHTML = "";
   dataFiltered.forEach((element) => {
     const card = document.createElement("li");

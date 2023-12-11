@@ -26,4 +26,11 @@ export function onURLChange({ currentTarget: { location } }) {
   renderView(location.pathname);
 }
 
-
+export const updateUrl = (userInput, sortValue, field) => {
+  const urlParams = new URLSearchParams(window.location.search);
+  urlParams.set('userInput', userInput);
+  urlParams.set('sort', sortValue);
+  urlParams.set('field', field);
+  const nuevaURL = window.location.pathname + '?' + urlParams.toString();
+  history.replaceState(null, null, nuevaURL);
+}
