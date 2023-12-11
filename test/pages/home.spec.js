@@ -1,4 +1,4 @@
-import { Home } from "../../src/pages/Home.js";
+import { Home } from "../../src/pages/Home/Home.js";
 
 describe('Tests para la funcion Home', ()=>{
 
